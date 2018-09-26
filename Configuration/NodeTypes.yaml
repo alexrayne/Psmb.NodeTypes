@@ -17,15 +17,15 @@
           format:
             strong: true
             em: true
-            u: false
+            u: true
             sub: true
             sup: true
-            del: false
+            del: true
             p: true
             h1: false
             h2: true
             h3: true
-            pre: false
+            h4: true
             removeFormat: true
           table:
             table: true
@@ -34,11 +34,15 @@
             ul: true
           link:
             a: true
-          alignment: {  }
+          alignment:
+            'left': TRUE
+            'center': TRUE
+            'right': TRUE
+            'justify': TRUE
           formatlesspaste:
             button: true
             formatlessPasteOption: true
-          autoparagraph: true
+          autoparagraph: false
 'Psmb.NodeTypes:Headline':
   superTypes:
     'Neos.Neos:Content': true
